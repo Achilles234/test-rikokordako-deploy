@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kirw2936/public_html/rikokordako.my.id/
+    - /bin/cp index.html $DEPLOYPATH
